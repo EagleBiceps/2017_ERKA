@@ -1,0 +1,24 @@
+
+public class WyjscieWejscie {
+public static double Policz()
+{
+	double wynik=100/20;
+	return wynik;
+	
+}
+
+public static double Policz(int a)
+{
+double wynik = a/20.0;
+return wynik;
+	
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Start programu");
+double w =Policz();
+System.out.println("Wynik po funkcji :  "+ w);
+		System.out.println("Koniec programu");
+	}
+
+}
