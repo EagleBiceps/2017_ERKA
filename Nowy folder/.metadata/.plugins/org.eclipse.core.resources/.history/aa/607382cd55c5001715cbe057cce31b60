@@ -1,0 +1,34 @@
+package zaborze_wczytywanie;
+
+import java.util.Scanner;
+
+public class Kalkultol {
+
+	public static void main(String[] args) {
+		Scanner odczyt = new Scanner(System.in);
+		
+		System.out.print("Podaj liczbê a:");
+		int a = odczyt.nextInt();
+		
+		System.out.print("Podaj liczbê b:");
+		int b = odczyt.nextInt();
+		
+		int suma = a+b;
+		int mn = a*b;
+		float dz = a/b;
+		int roz = a-b;
+		
+		
+		System.out.println("suma wynosi: "+suma);
+		System.out.println("iloczyn wynosi: "+mn);
+		System.out.println("iloraz wynosi: "+dz);
+		System.out.println("ró¿nica wynosi: "+roz);
+		
+		
+
+
+
+
+	}
+
+}

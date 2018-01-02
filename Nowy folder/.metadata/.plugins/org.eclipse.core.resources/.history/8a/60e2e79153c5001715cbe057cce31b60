@@ -1,0 +1,10 @@
+package zaborze_wczytywanie;
+
+public class Kalkultol {
+
+	public static void main(String[] args) {
+		
+System.out.print("Podaj liczbê:");
+	}
+
+}

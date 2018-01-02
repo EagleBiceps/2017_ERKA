@@ -1,0 +1,20 @@
+package zaborze_wczytywanie;
+
+import java.util.Scanner;
+
+public class Kalkultol {
+
+	public static void main(String[] args) {
+		
+System.out.print("Podaj liczbê:");
+
+Scanner odczyt = new Scanner(System.in);
+int a = odczyt.nextInt();
+System.out.println("Poda³eœ: "+a);
+
+
+
+
+	}
+
+}
