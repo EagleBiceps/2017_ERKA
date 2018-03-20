@@ -1,0 +1,17 @@
+body {
+  background-color: red;
+  color:white;
+}
+a {
+  color:cyan;
+  border: 6px dotted yellow;
+}
+a:hover{
+  font-size:200%;
+  border:8px solid white;
+  text-decoration: underline;
+  font-weight: : bold;
+}
+img{
+  width:500px;
+}
